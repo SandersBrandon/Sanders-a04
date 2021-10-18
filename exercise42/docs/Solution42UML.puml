@@ -1,0 +1,33 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solutions
+ *  Copyright 2021 Brandon Sanders
+ */
+@startuml
+class Solution42{
+
+-input : file
+-output: string
+-employee: String
+
+'this will take the input file and be able to read it
+-Scanner: string
+
+'going to take input from the docs directory as it is to pass
+'along the functions
+-inputFile: file
+
+
+
+'this will take our file to be read parse it and skip over
+'any "," inside the file to then print the remaining of the file
+outputInfo()
+
+}
+
+
+'i think it is able to be made in only one class
+'that breaks it down into a singular methods since there isnt much
+'to do with the data except parse it and print
+
+
+@enduml

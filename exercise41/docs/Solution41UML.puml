@@ -1,0 +1,34 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solutions
+ *  Copyright 2021 Brandon Sanders
+ */
+@startuml
+class Solution41{
+-name : string
+-input :string
+-output: string
+
+'dynamically create an array of names to be sorted
+-names : arraylist
+
+'going to take input from the docs directory as it is to pass along
+'to a different method
+-inputNames()
+
+'going to take input from the collections sorter and print it to the output file
+-outputNames()
+
+-collections.sort()
+
+'dynamically sort the list of names whats read by the input file
+'to be sorted
+
+}
+
+
+'i think it is able to be made in one class
+'that breaks it down into multiple methods instead of multiple
+'classes to try and read and sort something also so that
+'any future additions of classes are able to use the output
+'this produces
+@enduml

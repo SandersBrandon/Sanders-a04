@@ -1,0 +1,10 @@
+Total number of names: 8 
+==================
+Johnson, Jim
+Jones, Aaron
+Jones, Chris
+Ling, Mai
+Sanders, Brandon
+Swift, Geoffrey
+Xiong, Fong
+Zarnecki, Sabrina
