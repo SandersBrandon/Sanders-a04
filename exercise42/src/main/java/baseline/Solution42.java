@@ -8,7 +8,14 @@ package baseline;
 import java.util.*;
 import java.io.*;
 
-
+/*Pseudocode
+Open and parse the file
+*Regex and ignore the "," to get the info thats required
+*Store new information with out the ","
+* Create a table with formatting
+*Print information from input into the table
+*Close all open files or scanner objects to prevent memory leaks
+*/
     public class Solution42 {
 
         public void outputFileInfo() {
